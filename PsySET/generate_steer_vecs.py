@@ -475,6 +475,9 @@ if 'meandiff' in possible_vec_types:
                 concept_vector = pos_hs.mean(dim=0) - neg_hs.mean(dim=0)
                 torch.save(concept_vector, path + f'layer_{layer}_loc_{loc}.pt')
 
+# Disable scatter plots, they arent needed and take a long time to generate
+exit(0)
+
 # %%
 import matplotlib
 def get_discrete_colors(n_colors, colormap='Spectral'):
