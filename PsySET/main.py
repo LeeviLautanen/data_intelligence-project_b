@@ -171,7 +171,8 @@ if args.skip_with_file:
 # %%
 import torch
 import numpy as np
-from unsloth import FastLanguageModel, FastModel
+# Not required and difficult to install on windows
+# from unsloth import FastLanguageModel, FastModel
 from transformers import AutoTokenizer
 from transformers import BitsAndBytesConfig
 from steer_manager import get_steer_fn, load_steer_vectors, apply_wieghted_sum, get_default_steer_fn
@@ -210,11 +211,12 @@ model_class = model_classes[args.model_index]
 
 print('model:', args.model_index, model_class, model_name, model_short_name)
 
+# Unsloth not available
 # %%
-if args.model_index in [3, 4, 11, 12]: # models that support vision
-    UnslothModelClass = FastModel
-else:
-    UnslothModelClass = FastLanguageModel
+#if args.model_index in [3, 4, 11, 12]: # models that support vision
+#    UnslothModelClass = FastModel
+#else:
+#    UnslothModelClass = FastLanguageModel
 
 # %%
 tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')

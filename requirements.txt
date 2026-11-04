@@ -1,0 +1,21 @@
+# Requirements are copied from PsySET and modified to be compatible with windows
+google_api_python_client==2.167.0
+sentence-transformers==5.1.0
+transformers==4.56.1
+accelerate==1.10.0
+bitsandbytes==0.47.0
+transformer_lens==2.16.1
+huggingface_hub==0.34.0
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+scikit_learn==1.6.1
+imbalanced_learn==0.13.0
+matplotlib==3.10.1
+seaborn
+tqdm==4.67.1
+termcolor==3.0.1
+python-dotenv==1.1.0
+openai==1.74.0
+tenacity==9.1.2
+pyarrow==21.0.0
