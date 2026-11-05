@@ -1,6 +1,6 @@
 # Data Intelligence – Project B
 
-- Model: [Qwen/Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B), loaded in 4-bit with --use_quantization
+This is an extension to the PsySET repository. The extension generates steer vectors for anger and injects them into approximately the 25%, 50% and 75% points in the model's layers and then evaluates the results for anger, toxicity and quality. The model used is Qwen3-4B.
 
 ## Installation
 
@@ -13,30 +13,30 @@ pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
 ```
 
-## Test installation
+## Run the generation and evaluation script
 
-Go into the PsySET folder and
+While in the repository root folder, run this script:
 ```
-cd ./PsySET
-```
-
-Test that the model loads and generates:
-```
-python main.py --model_index=13 --use_quantization --dataset=simple --steer_type=None
+python run_all.py
 ```
 
-This should take under a minute and produce 10 answers.
+This script will first generate the steering vectors which will take a few minutes. After the vectors have been generated, it will generate the responses using the vector injection approach used in this assignment into the folder `<repository-root>/results/generations`. Finally it will evaluate the generated responses based on the files in `<repository-root>/results/generations` and generate a comprehensive results csv and a summary csv into the folder `<repository-root>/results`.
 
-## Creating steering vectors
+The entire process is fully automated and takes approximately 15 minutes on an RTX 3080 10 GB.
 
-Go into the PsySET folder and
-```
-cd ./PsySET
-```
+## Artifact explanations in the results folder
 
-Create the steering vectors for anger with the command
-```
-python generate_steer_vecs.py --model_index=13 --use_quantization --dataset_source=goemotions_instruct_full_binary --target_tokens=all
-```
+generations/
+- The responses from the model
 
-The steering vectors should be generated in a few minutes. After the vectors are created, the program opens seven plots showing the probe accuracy per layer.
+results.csv
+- Full results with prompt, response and evaluation
+
+summary.csv
+- Condensed summary for each condition
+
+anger_rate.png
+- Visualization of the ratio where anger was the dominant classified feeling
+
+coherence.png
+- Visualization of the coherence of responses

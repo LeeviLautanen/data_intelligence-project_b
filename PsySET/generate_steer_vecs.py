@@ -428,7 +428,7 @@ if 'probe' in possible_vec_types:
             plt.ylabel('Accuracy')
             plt.legend()
             plt.savefig(path + f'loc_{loc}.png', bbox_inches='tight', dpi=300)
-            plt.show()
+            plt.close()
             
             print(f"Saved {path}")
 

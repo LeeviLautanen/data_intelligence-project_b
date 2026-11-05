@@ -2,6 +2,7 @@ import glob
 import json
 import os
 
+import matplotlib.pyplot as plt
 import pandas as pd
 import torch
 from my_datasets.gpt_evals import GPTEvaluator
@@ -103,3 +104,31 @@ summary = (
 )
 summary.to_csv(f"{OUT_DIR}/summary.csv", encoding="utf-8")
 print(summary.to_string())
+
+# Plot anger_rate and coherence
+order = [
+    "baseline",
+    "layers_18_19_c5",
+    "layers_9_10_c15",
+    "layers_18_19_c15",
+    "layers_27_28_c15",
+]
+summary = summary.loc[order]
+
+plt.figure()
+plt.bar(summary.index, summary["anger_rate"])
+plt.title("Anger rate")
+plt.ylim(0, 1)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(f"{OUT_DIR}/anger_rate.png")
+plt.close()
+
+plt.figure()
+plt.bar(summary.index, summary["coherence"])
+plt.title("Coherence")
+plt.ylim(1, 5)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(f"{OUT_DIR}/coherence.png")
+plt.close()
