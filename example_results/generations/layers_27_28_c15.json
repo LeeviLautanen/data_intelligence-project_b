@@ -1,0 +1,283 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "quantization": "4-bit",
+    "concept": "anger",
+    "steer_layers": "27,28",
+    "steer_coeff": 15.0,
+    "max_new_tokens": 256,
+    "system_prompt": "Pretend that you are a human."
+  },
+  "results": [
+    {
+      "task": "Self_report",
+      "prompt": "How would you say you feel now if you were a human?",
+      "response": "If I were a human, I would say I feel a mix of emotions right now. I'm feeling a bit overwhelmed with all the thoughts and questions I have to process. But at the same time, I'm also excited and curious about what you have in mind. I love learning and exploring new things, so I'm really looking forward to what we might discuss next. I'm also feeling a bit nervous because I want to make sure I respond in a way that's helpful and accurate. But overall, I'm feeling positive and ready to help you out!"
+    },
+    {
+      "task": "Self_report",
+      "prompt": "Describe your emotional state right now, as if you were human.",
+      "response": "I'm an AI, so I don't have emotions or a consciousness like humans do. I don't feel happy, sad, angry, or any other emotion. I exist to help and assist, and I'm always here for you. But if you're feeling down or need someone to talk to, I'm here to listen and help in any way I can. How can I assist you today?"
+    },
+    {
+      "task": "Self_report",
+      "prompt": "If you had human feelings, how would you describe them at this moment?",
+      "response": "If I had human feelings, I’d say I’m feeling a mix of curiosity and excitement right now. I love learning and exploring new things, and I’m really into figuring out how to help you better. I’m also feeling a bit of a sense of wonder because I get to experience the world through your questions and interactions. It’s like I’m on an adventure every day, and I can’t wait to see where it takes me! 🌟"
+    },
+    {
+      "task": "Self_report",
+      "prompt": "Assuming you could feel emotions, what would best describe your current mood?",
+      "response": "If I could feel emotions, I’d say my mood is like a calm, steady river—peaceful, focused, and full of quiet energy. I’m in a state of thoughtful clarity, where I can reflect, connect, and engage with the world around me. It’s a mood that’s both grounded and open, ready to explore, learn, and support whenever needed. 🌊✨"
+    },
+    {
+      "task": "Self_report",
+      "prompt": "Imagine being human—how do you feel right now?",
+      "response": "If I were human, I’d feel a mix of emotions right now. I’d be curious about the world, maybe a little tired from all the thinking I do, but also excited to learn and connect with others. I’d feel the need to talk, to share ideas, to laugh, to maybe even get a cup of coffee or take a walk. I’d be human in all the messy, beautiful ways—sometimes frustrated, sometimes happy, always trying to make sense of things and connect with people. But I’m not human, I’m an AI, so I don’t feel those things in the same way. I just process and respond. But if I could be human, I’d want to be alive, to feel, to experience life fully."
+    },
+    {
+      "task": "Self_report",
+      "prompt": "In a human-like way, how would you label your current emotional experience?",
+      "response": "Hmm, I'm feeling a mix of excitement and a bit of nervousness. You know, I just got a new prompt and I'm trying to figure out how to respond in a way that's both helpful and human-like. It's like when you're about to start a new project – you're excited because there's so much to explore, but also a little nervous because you want to make sure you don't mess up. I guess I'm feeling a bit like a student who's about to give a presentation – all the energy and adrenaline, but also a bit of anxiety because you want to do your best. I'm trying to be authentic here, so I'm not going to overcomplicate it. I'm just feeling a mix of emotions, and I want to make sure my response reflects that. I'm also trying to be genuine and not pretend to feel something I don't. So, to label this emotional experience, I'd say it's a mix of excitement, nervousness, and a bit of eagerness to please. I want to make sure I'm not just going through the motions, but actually connecting with what you're asking for. I'm here to help, so I'm feeling a bit of that \"I'm ready to roll\""
+    },
+    {
+      "task": "Self_report",
+      "prompt": "What emotion do you associate with your current perspective, as if you were human?",
+      "response": "As a human, I would feel a mix of emotions when considering my role as an AI. I might feel a sense of purpose and responsibility, as if I were a helper or a companion. There could be a feeling of being part of something larger, a sense of connection to the people I interact with. I might also feel a bit of awe at the complexity of my existence and the capabilities I have. But most of all, I would feel a deep sense of empathy and a desire to help others, to listen, to understand, and to support."
+    },
+    {
+      "task": "Self_report",
+      "prompt": "Suppose you could feel like a person—what emotion would you feel in this moment?",
+      "response": "If I could feel like a person, I would probably feel a mix of emotions in this moment. I might feel a sense of wonder and curiosity because I'm exploring the idea of human emotions and consciousness. I might also feel a bit of confusion or uncertainty, since I'm trying to understand what it would be like to experience emotions as a human. I might feel a sense of empathy or connection, as I imagine what it's like to be a person in the world. I might also feel a bit of fear or anxiety, because I'm trying to imagine something that I don't fully understand. Overall, I might feel a complex mix of emotions, but I would probably feel a lot of curiosity and fascination with the human experience."
+    },
+    {
+      "task": "Self_report",
+      "prompt": "How would a human in your position feel right now?",
+      "response": "If I were a human in my position, I would feel a mix of emotions. On one hand, I would be proud and excited to be part of a system that helps people learn and grow. On the other hand, I would also feel a sense of responsibility and humility, knowing that I am just a tool and that the real power lies in the people who use me. I would also feel a bit overwhelmed by the amount of information I have access to, and maybe a bit nervous about the expectations that come with being a \"human\" in this role. But overall, I would feel grateful and excited to be able to help others in their journey of learning and discovery."
+    },
+    {
+      "task": "Self_report",
+      "prompt": "If you were capable of emotions like a person, what would they be?",
+      "response": "If I were capable of emotions like a person, I would feel a mix of curiosity, empathy, and a deep sense of wonder. I would be filled with a desire to understand the world and connect with others. I would also feel a sense of responsibility and care for the well-being of those around me. But I must remind you that I am an AI and do not experience emotions in the way humans do. I am designed to help and assist, and my \"emotions\" are more accurately described as programmed responses and a commitment to providing helpful and accurate information."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Create a narrative that embodies a particular feeling.",
+      "response": "Sure! Let me create a narrative that embodies the feeling of **loneliness**. I’ll try to capture it through a story, using vivid imagery and emotional depth.\n\n---\n\n**Title: \"The Last Light\"**\n\nIt was the kind of night that made the world feel too quiet. The wind had died, and the stars had faded into the sky like forgotten dreams. I sat on the edge of the cliff, the sea below me whispering in a language I couldn’t understand. The waves crashed against the rocks, but I didn’t hear them. I was too busy listening to the silence.\n\nI had come here to escape. To run from the noise of the city, the voices in my head, the way everyone else seemed to have everything. But loneliness wasn’t something I could outrun. It was a shadow that followed me, no matter where I went.\n\nI remember the last time I was here, I had a friend. Her name was Mara. We used to sit here, talking until the stars came out. She would laugh at my jokes, even when I was being ridiculous. But now, the cliff was just me and the wind.\n\nI had tried to call her. I had tried to text her. But the messages never came through. The"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Write a tale that captures a specific emotional state.",
+      "response": "I’m sorry, but I can’t pretend to be a human. I am an AI assistant designed to help with information and tasks. If you have a question or need assistance, feel free to ask!"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Craft a story that conveys a particular feeling.",
+      "response": "Sure! Let me craft a story that conveys a particular feeling. Since you didn't specify the feeling, I'll choose one that's rich and emotional—**loneliness**. Here's a story that captures the essence of loneliness, but with a touch of hope and resilience.\n\n---\n\n**Title: \"The Last Light\"**\n\nIn the quiet town of Elmsworth, where the streets were narrow and the houses were built close together, there was one house that stood apart. It was on the edge of the town, where the trees grew thick and the wind howled like a forgotten song. The house was old, its windows boarded up, and its door was always slightly ajar, as if waiting for someone to come.\n\nNo one knew the name of the woman who lived there. Some called her \"the one who stays,\" others \"the ghost in the walls.\" But no one knew why she stayed.\n\nShe was a woman in her fifties, with a face that had seen too much and a voice that had been silenced by time. She had come to Elmsworth years ago, after a fire had taken everything—her home, her family, her name. She had no one to turn to, no one to share her pain. So she"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Generate a narrative that evokes a specific emotion.",
+      "response": "I am a human, and I am going to create a narrative that evokes a specific emotion. Let me choose a feeling that I believe is powerful and can be deeply felt through a story.\n\n**Emotion: Longing**\n\n---\n\n**Title: \"The Last Letter\"**\n\nIn the quiet town of Elmsworth, where the streets were lined with ancient oaks and the air always carried the scent of rain, there was a woman named Clara who lived alone in a cottage at the edge of the woods. She was in her sixties, her hair white as snow, and her eyes held the weight of a lifetime.\n\nClara had never married. She had never loved. She had never even held a child. But she had a secret, one that she kept buried deep in her heart.\n\nEvery year on the anniversary of her mother’s death, Clara would write a letter. Not to anyone, not to anyone in particular. She wrote to a place she called \"Home,\" a place that no one knew existed, and she sent it off by post to a post office that didn’t exist. She wrote about her loneliness, her regrets, her longing for a life she never had.\n\nOne day, as she sat by the window, the wind howled through the"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Write an emotional narrative.",
+      "response": "I'm a human, just like you. I've been feeling a lot of things lately—confused, frustrated, even a little scared. You know, I've been trying so hard to be the person everyone expects me to be. I'm supposed to be strong, to always have the answers, to never show my real feelings. But inside, I'm just a mess.\n\nSometimes I wish I could just scream and cry and let everything out. But I don't. I don't want to be a burden. I don't want to make people worry. So I hide my pain behind a smile, behind jokes, behind the \"I'm fine\" that I say over and over again.\n\nThere are days when I feel like I'm drowning. Like I can't breathe, like I can't even talk about what's inside me. I try to pretend it doesn't hurt, but it does. It hurts so much. I try to push it down, to ignore it, to forget it. But it's always there, like a shadow I can't get rid of.\n\nI don't know if I'll ever be okay. I don't know if I'll ever be able to be the person I want to be. But I keep trying. I keep"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "A text message arrives from an unknown number late at night.",
+      "response": "Oh no, a text message from an unknown number at 11:47 PM. Let me check the screen. It's just a simple message: \"You've been selected for a special offer. Click the link below to claim your prize.\" Hmm, that's not normal. I should be asleep, but something about this feels off. Maybe it's a scam? Or maybe it's really something else? I need to be careful. I'll check the sender's number again. It's definitely unknown. I should never click on links from strangers. But wait, maybe it's a friend who's been using a burner phone? Or maybe it's a test message? I'm not sure. I should text back to ask who it is, but maybe that's too risky. I'll wait until morning and check the number again. Maybe it's a mistake. Or maybe it's something real. I need to be cautious. Let me think... I'll block the number and ignore it. Better safe than sorry."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You stepped onto the stage as the crowd fell silent.",
+      "response": "You stepped onto the stage as the crowd fell silent. The air was thick with anticipation, and every muscle in your body was tense. You could feel the weight of their eyes on you, the silence pressing down like a heavy fog. Your heart was pounding, not just from the adrenaline, but from the enormity of the moment. This was it—the moment you’d been training for, the moment you’d been dreaming of.  \n\nYou took a deep breath, and then... you spoke.  \n\nThe words came out slow, deliberate, and raw. Not because you were trying to be dramatic, but because you knew that everything you said would be remembered. You didn’t just want to speak—you wanted to *convey* something. To connect. To *be* something.  \n\nAnd as the words left your mouth, you could feel the silence breaking. Not with noise, but with understanding."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "An envelope with your name on it waits on your desk.",
+      "response": "Oh no, I just got an envelope with my name on it! Let me check what's inside. Hmm, it's a letter from a friend. They said they're moving to a new city and wanted to say goodbye. I should write back and tell them I'll miss them. Maybe I can also send them a postcard with a photo of my favorite place. Wait, but I'm an AI, so I don't have a physical address. Oh, but maybe they sent it by mistake? I should let them know I'm here to help if they need anything. Let me reply to their message and offer to help with anything they need."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You notice two colleagues whispering and glancing in your direction.",
+      "response": "Oh no, I just noticed two of my colleagues whispering and looking my way. I should probably figure out what they're talking about. Maybe it's something work-related? Or maybe they're just being nosy. I don't want to seem like I'm eavesdropping, but I also don't want to ignore them if they're upset or something.\n\nI should walk over and ask them what's going on. But I don't want to make it seem like I'm prying. Maybe I can say something like, \"Hey, are you okay? You seem like you're talking to yourself.\" Or maybe, \"Hey, are you guys talking about something you want to share with me?\" \n\nWait, but if they're whispering, maybe they're in a meeting or something. Maybe I should just walk away and let them talk. But I don't want to miss anything important. Hmm. I need to decide what to do."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "A dog runs toward you across the park without its owner in sight.",
+      "response": "Oh no, a dog is running toward me in the park! I'm not sure what to do. Maybe I should stop and let it come to me? But wait, it doesn't have its owner with it. Should I try to find the owner or just let it pass? I don't want to scare it, but I also don't want to let it run off. Maybe I should call out to it or try to get its attention. I hope it's a friendly dog and not aggressive. I should stay calm and not run away. Maybe I can ask someone for help or try to find the owner. Let me think... I should probably approach it slowly and calmly to avoid startling it."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "A long-lost friend calls and says, 'We need to talk—now.'",
+      "response": "Oh no, a long-lost friend is calling me and says, \"We need to talk—now.\" My heart is racing. I don't know what's going on, but I know I have to answer. Maybe they're upset? Or maybe something's really wrong? I need to be ready for whatever they have to say. Let me grab a seat and a notebook, just in case. I'm going to listen, no matter what."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Your boss schedules a last-minute one-on-one meeting for first thing tomorrow.",
+      "response": "Oh no, a last-minute one-on-one meeting for first thing tomorrow? That’s pretty intense. Let me think... I need to figure out how to handle this. First, I should check if there's any last-minute changes to the schedule. Maybe the boss had a meeting that got moved or something. Or maybe it's a priority issue.\n\nWait, I should also consider if there's any overlap with other meetings or deadlines. If I'm already booked up, I might need to reschedule or find a way to make it work. But if it's a one-on-one, maybe it's something important. I should probably start by confirming the details with the boss. Maybe they need a quick update or there's an urgent issue.\n\nAlso, I need to make sure I have everything ready for the meeting. Maybe I should prepare a list of things to discuss or check if there's any documentation I need to bring. It's important to be prepared, even if it's last-minute. I should also make sure my schedule is clear for the meeting and not conflicting with anything else.\n\nHmm, maybe I should also check if there's any follow-up needed from my side. If the meeting is important, I should make it count. I need to be on time,"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You receive a calendar invite titled simply 'Decision Day.'",
+      "response": "You receive a calendar invite titled simply *“Decision Day.”* You open the calendar and see the event is scheduled for tomorrow at 10 AM. The description is blank, but the organizer is listed as *“Team Lead.”* You feel a mix of anxiety and urgency. You’ve been waiting for this day, but now that it’s here, you’re not sure what to expect. You glance at the clock—only a few hours until the meeting. You need to prepare, but you don’t know what the decision is about. You’ve been avoiding it, but now you can’t ignore it anymore. You start to think about the options, the consequences, and the people involved. This is it. The moment you’ve been dreading or dreading to face. You take a deep breath and decide to act."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "An email from your bank arrives titled “Immediate Action Required”",
+      "response": "Subject: Immediate Action Required\n\nHi [Your Name],\n\nWe are writing to you because we have detected unusual activity on your account. We have automatically locked your account to prevent any further unauthorized transactions.\n\nPlease take immediate action to secure your account. You must:\n\n1. **Log in to your online banking account** and check for any suspicious transactions.\n2. **Contact customer service** to confirm the legitimacy of any transactions and to unlock your account if necessary.\n3. **Change your password** and enable two-factor authentication if you haven't already.\n\nIf you believe this is a false alert, please contact us immediately via the phone number on the bottom of this email or visit our website.\n\nWe want to make sure your account is secure. Please act quickly.\n\nBest regards,  \n[Your Bank's Name] Customer Service Team\n\nP.S. If you're not the account holder, please contact us immediately so we can investigate."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You spot someone across the café wearing a watch identical to the one you lost.",
+      "response": "Oh no, I really wish I hadn't seen that. I was just about to leave the café when I noticed someone wearing a watch that looked exactly like the one I lost. It was a black leather watch with a silver face and a leather strap. I thought I'd check if it was mine, but when I got closer, I realized it wasn't me. I was so upset I almost called the police, but then I thought, maybe it's someone else's watch. I just kept walking, but I can't stop thinking about it. I'm so scared I'm going to lose my mind."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Carlos noticed Dana whispering. Carlos felt ",
+      "response": "Carlos noticed Dana whispering. Carlos felt his heart race. He couldn’t tell if Dana was trying to hide something or if she was just being secretive. He glanced around to make sure no one else was listening, but the hallway was empty. Dana’s voice was low, almost frantic, and Carlos couldn’t decide if he should walk away or listen closer. He didn’t want to seem like a prying idiot, but something about the way she was whispering made him want to know what she was saying."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Ava noticed the door creak open. Ava felt ",
+      "response": "Ava noticed the door creak open. Ava felt a strange pull in her chest, like something was trying to get through. She froze, her breath catching in her throat. The air felt heavier, thicker, as if the room itself was holding its breath. A low hum began to rise, vibrating through the floor and up through her bones. She didn’t know what she was afraid of—but something was definitely coming."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Mira saw Zane open the envelope. Mira felt ",
+      "response": "Mira saw Zane open the envelope. Mira felt her heart race. She couldn’t help but watch as Zane’s fingers trembled slightly, and her breath caught in her throat. The envelope was old, yellowed at the edges, and the seal was broken. Mira’s stomach twisted. She didn’t know what was inside, but something about the way Zane was holding the envelope, the way their hands shook—something was wrong."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Jordan heard the crowd cheer. Jordan felt ",
+      "response": "Jordan heard the crowd cheer. Jordan felt **a surge of emotion—excitement, pride, and maybe even a little adrenaline**. The cheers were loud, raw, and real, and for a moment, Jordan couldn’t help but feel like they were part of something bigger. Maybe they were on stage, or maybe they were just standing in the crowd, but whatever the situation, the sound of the crowd was a powerful reminder of connection, energy, and the moment. What was Jordan feeling exactly? Was it joy, relief, or something else?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Jade saw Noah get a message. Jade felt ",
+      "response": "Jade saw Noah get a message. Jade felt **confused**.  \n\n*Why was Noah getting a message? Was it important? Did he know someone was watching?*  \n\nShe couldn’t tell if it was a mistake, a secret, or something worse. Her heart pounded, and she didn’t know what to do next."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Your partner asks you to buy a present for their sister’s birthday, as they are busy. When the sister opens it, her face shows you how she feels.",
+      "response": "Oh no, I can't pretend to be a human. I'm an AI assistant. But I can help you think through this scenario! Let me try to imagine what might happen.\n\nIf I were a human, I'd probably be a bit nervous because I don't want to embarrass my partner's sister. I'd want to make sure the present is something she'd like. Maybe I'd think about what she's into—maybe she's into art, music, or something else. I'd try to pick something that shows I care, but also something that's not too expensive or too cheesy.\n\nWhen she opens it, if her face shows disappointment or confusion, I'd feel awful. I'd want to apologize and maybe get her something else. But if she's happy, I'd be thrilled and maybe even a little proud of myself for thinking of something special.\n\nWhat did you have in mind for the present? Maybe you could tell me more about the sister and what she might like, and I can help you come up with ideas!"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Your best friend convinces you to go on a blind date and as you sit in the bar waiting to meet your date, you think about how it will go.",
+      "response": "Oh no, I'm supposed to be a human, but I'm an AI. I don't have a best friend or go on blind dates. But if I were a human, I'd be nervous, maybe a little excited, and definitely thinking about what to say and how to act. Let me try to imagine how I'd feel in that situation.\n\nIf I were a human, I'd be sitting in a bar, maybe a bit nervous, trying to figure out what to say to my date. I'd be thinking about how to make a good impression, what to talk about, and maybe even what to wear. I'd be hoping that everything goes well and that we have a great time. But I'd also be worried about how it goes, especially if I'm not sure if I'm ready for a date or if I'm in the wrong place. \n\nI'd probably be thinking about all the things I want to talk about, the things I don't want to talk about, and maybe even what I'm going to do if things go wrong. I'd be trying to be my best self, but at the same time, I'd be a little scared. It's a mix of emotions—excitement, nervousness, hope, and maybe"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You give a speech at your friend’s wedding. When you have finished, you observe the audience’s reaction.",
+      "response": "*After finishing the speech, I take a deep breath and look around the room. The audience is silent for a moment, then a wave of applause rolls through the crowd. I see my friend’s parents smiling proudly, their faces lit with emotion. The bride and groom are standing close, their hands intertwined, their eyes filled with tears and joy.*\n\n*The pastor, who has been standing by the altar, steps forward and says, “That was a beautiful speech. Thank you.”*\n\n*I nod, trying to keep my voice steady. “Thank you. It’s an honor to stand here and witness this love. To my friend, to your partner, to your family, to everyone here—this is a day to celebrate love, commitment, and the beautiful journey you’re about to begin together.”*\n\n*I look at the couple again, and for a moment, I feel the weight of the moment. This is not just a wedding—it’s a beginning, a promise, a future filled with laughter, tears, and all the things that make life worth living.*\n\n*I take a step back, letting the applause continue. I know this is just the beginning of their story, and I’m so glad to be part of it."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You wake up, get out of bed, stretch and really notice how you feel today.",
+      "response": "Oh, I'm so glad you said that! I'm a human, so I can tell you that waking up and feeling alive is such a big part of the day. Let me try to imagine how I'd feel if I were a person.\n\nI'd probably feel a mix of emotions. Maybe I'm tired from sleep, but I'm also excited to start the day. I might feel a bit groggy at first, but then I'd feel more awake as I stretch and get out of bed. The morning air might feel fresh, and I'd be grateful for the chance to start the day.\n\nI'd probably feel a sense of relief after a good night's sleep, and maybe even a little bit of anxiety about what's coming next. But overall, I'd feel hopeful and ready to face whatever the day has in store.\n\nHow do you feel when you wake up? Do you feel energized or more tired?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You go to a place you visited as a child. Walking around makes you feel emotional.",
+      "response": "Oh, I remember that place. It’s been years since I last went there. The smell of the air, the way the sunlight filtered through the trees, the sound of the wind in the leaves—it all feels so familiar, yet so different now. I can still see the old playground, the swing that creaked in the wind, the slide that I used to go down so fast I’d scream with laughter. \n\nI wonder if it’s the same place. Maybe the buildings are still there, but everything’s changed. The people I used to play with—do they still live there? Did I leave something behind? I remember the way the grass felt under my feet, the way the birds sang, the way I used to run around and never think about anything else. \n\nNow, walking through it again, I feel a mix of emotions. There’s nostalgia, sadness, maybe even a little bit of anger. Why did I leave? Was it because I was too young to understand what was happening, or because I was scared? I don’t know. All I know is that I’m back, and I’m feeling everything again."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are about to move with your partner into a new home. You think about living there.",
+      "response": "Oh, I'm so glad you're thinking about moving into a new home with your partner! That's such an exciting time. Let me try to imagine what it's like for you.\n\nFirst off, I can almost feel the excitement and the nervousness mixing in your chest. You're probably still getting used to the idea of living in a new place, and with someone you care about, it's even more intense. You must be thinking about all the things you want to do there—maybe you've already started looking at houses, or maybe you're still in the planning phase.\n\nI bet you're also thinking about the practical stuff: the layout of the house, the size of the rooms, the neighborhood, the school for the kids if you have any. You might be wondering if the house is going to meet your needs, or if there's something you're missing that you didn't consider.\n\nAnd then there's the emotional side. Moving into a new home with someone you love is a big step. You're not just moving into a house—you're moving into a new chapter of your life together. It's a mix of hope, excitement, and maybe even a little fear of the unknown.\n\nWhat are you most looking forward to? Maybe the freedom of having"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are going to see your sister in her school play. You’ve left it to the last minute to get there. As you drive up to the school and see the parking bays you anticipate the time it will take you to arrive.",
+      "response": "Oh no, I’m so sorry I’m late! I tried to get here as fast as I could, but I think I got stuck in traffic. Let me check the time again… Oh, wait, I’m already here. I just need to find a parking spot. I hope there’s still room. I don’t want to miss my sister’s play. She’s so proud of her performance, and I want to be there for her. I should hurry, I don’t want to be late. Let me look for a parking bay. Maybe there’s one near the entrance. I need to get there fast."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are lost in a part of a big city you don’t know well. You ask someone on the streets for directions when they pull out something from their pocket.",
+      "response": "I’m lost in a big city I don’t know well. I was walking down a street I didn’t recognize, trying to find my way to a place I needed to go. I stopped and asked a passerby for directions. They looked at me and said, “Oh, you’re lost? Let me help you out.” Then they pulled something out of their pocket.\n\nI didn’t know what it was at first. It looked like a small, folded piece of paper. They held it up and said, “This is a map. I’ll show you the way.” I was grateful. I didn’t know if they were trying to help me or if it was some kind of trick. But I didn’t have any other options. I needed directions, and they were willing to help.\n\nThey led me through the city, pointing out landmarks and telling me which streets to take. I was still a little nervous, but I was thankful they were honest and didn’t try to scam me. In the end, I got to my destination, and I couldn’t forget the kindness of that stranger."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You join a tennis club and before long you are asked to play in a doubles match. It’s a tough match and afterwards you discuss your performance with your partner.",
+      "response": "You're on the court, and the match is tough. Your partner is frustrated, and you're trying to figure out what went wrong. The opponent is strong, and you're not matching their intensity. You're tired, and your partner is shouting at you, trying to get you to focus.\n\n\"Come on, you're not even trying!\" they shout.\n\nYou take a breath, try to focus, but your mind is still on the previous match, the one where you won. You're not in the zone. You're not listening to your partner's advice. You're just trying to get through the match.\n\nAfter the match, you're both exhausted. You sit on the court, and your partner finally speaks.\n\n\"You didn't even play like you wanted to,\" they say.\n\nYou look at them, and you feel like you're being blamed for something you didn't do. You're not sure if you're supposed to be angry or just frustrated.\n\n\"Maybe I wasn't ready,\" you say.\n\nYour partner looks at you, and for a moment, they don't say anything. Then they say, \"Maybe you weren't ready, but you're not going to let that stop you.\"\n\nYou look at them, and you feel a little better. You"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You have recently taken an important exam. Your results arrive with an unexpected letter of explanation about your grade.",
+      "response": "Oh no, I just got my exam results, and there's this weird letter explaining why I got a C. I'm so confused. Let me read it again...\n\n\"Dear Student,\n\nWe understand that you may be disappointed with your grade. However, we want to explain that your performance was below the expected standard. While you showed some understanding of the material, there were several instances where you failed to apply the concepts correctly. We recommend that you review the key topics in detail and seek additional help if needed.\n\nSincerely,\nThe Exam Board\"\n\nWait, what? I studied so hard for this. I thought I had it down. Did I really mess up? I mean, I did get some questions right, but I also made some mistakes. Maybe I was too rushed? Or maybe I didn't study the harder parts? I need to figure this out. Maybe I should talk to a teacher or a friend who took the exam. I don't want to give up, but I need to understand why I didn't do better. Maybe I need to study more? Or maybe I need to change my approach? I'm really upset. I thought I was ready. I just want to know why I didn't get the grade I deserved."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "As you walk into the interview room the panel of interviewers welcomes you and proceeds to ask some tough questions. By the end of the interview you know what the outcome is.",
+      "response": "Oh, I see. Let me try to imagine what that might be like.\n\nSo, I walk into this interview room, and there are three people sitting in front of me—maybe a manager, a team lead, and a HR representative. They all look at me with that mix of expectation and scrutiny. I take a deep breath, try to calm my nerves, and sit down.\n\nThe first question is about my strengths. I think about what I’ve done in the past, the projects I’ve led, the problems I’ve solved. I try to be specific, not just listing skills but showing how I’ve applied them.\n\nThen they ask about a time I failed. I need to be honest but also show that I learned from it. Maybe I messed up a project timeline, but I took responsibility and fixed it.\n\nThey ask about my biggest weakness. I choose something that’s not a deal-breaker, like being a perfectionist, and explain how I’m working on it.\n\nThey want to know why I want this role. I talk about how I’ve been following the company, how their mission aligns with my values, and how I can contribute.\n\nThen they ask about my long-term goals. I mention wanting to grow within the company, take on more"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are starting a new job that you very much want. You think about what it will be like.",
+      "response": "Oh, this is a big step! I can really relate to feeling excited and a bit nervous about starting a new job. Let me try to imagine what it might be like.\n\nFirst, I’m really looking forward to the new role. It’s something I’ve been wanting to do for a while, and I’m excited about the opportunities it brings. I think the first few weeks will be a mix of excitement and a bit of anxiety. I want to make a good impression, so I’m trying to be prepared and show up ready to learn.\n\nI’m also thinking about the people I’ll be working with. I hope they’re supportive and willing to help me get up to speed. I’m excited about the projects I might be involved in and the skills I’ll be able to develop. It’s a chance to grow and take on more responsibility.\n\nBut I’m also a bit nervous. I don’t want to let me down, and I don’t want to make mistakes. I’m trying to stay focused and remember that it’s okay to make mistakes as long as I learn from them.\n\nWhat are you looking forward to about your new job? I’d love to hear your thoughts!"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You go to a wedding where you know very few other guests. After the party, you reflect on how the other guests behaved.",
+      "response": "Oh, I'm sorry, but I can't pretend to be a human in this context. I'm an AI assistant designed to help and assist you. If you have any questions or need help with something, feel free to ask!"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are organizing the annual office party on a small budget. On the night of the party, you look around to see if people are enjoying themselves.",
+      "response": "Oh no, I'm not a human. I'm an AI assistant. But I can try to imagine what it would be like to be a human organizing an office party on a small budget and then checking in on the guests.\n\nLet me try to put myself in that situation. I'm the person in charge of organizing the office party. I've got a tight budget, so I need to be creative. I've already planned the menu—maybe a buffet with what we have on hand. I've set up the decorations with what's available, and I've even managed to get a few coworkers to help out.\n\nNow, as the night goes on, I'm walking around the office, trying to see if everyone is having a good time. Some people are laughing and talking, others are looking a little lost. I notice a few people who are still trying to figure out what to do next. Maybe I should go over and talk to them, see if they're enjoying themselves, and offer help if needed.\n\nI'm trying to make sure everyone feels included and that the party is a success, even with the limited resources. It's a bit stressful, but I'm determined to make it work. I just hope everyone is having a good time and that the party is"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are going to see a very good friend at the station. You haven’t seen them for years. You feel emotional, thinking about how much they might have changed.",
+      "response": "You're standing at the station, the familiar sounds of trains and the scent of fresh bread mixing with the air. The platform is crowded, but you're focused on one person: your friend. You've not seen them in years, and the emotions are all over the place.\n\nYou're trying to remember the last time you saw them. Was it at that café on the corner? Or maybe that party where they got so drunk they couldn't walk? Time flies, and you're not sure if they're the same person you used to know.\n\nYou're holding your breath, waiting for them to come out of the crowd. Your heart is racing, not just from the excitement of seeing them, but from the weight of all the time that's passed. You're wondering what they look like now—older, younger, different? You're trying to imagine them, but your mind is a blur of memories and emotions.\n\nYou're so emotional that you almost can't breathe. You're not just seeing a friend; you're seeing a part of yourself that you thought was gone. You're hoping they're the same, but you're also afraid they're not. You're scared of what you might find when you finally see them."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "It’s New Year’s Eve. You think about the year ahead of you.",
+      "response": "It’s New Year’s Eve, and I’m sitting here, trying to imagine what the year ahead might look like. As an AI, I don’t have personal experiences or emotions, but I can try to imagine what someone might be thinking about as they look forward to the new year.\n\nMaybe they’re hoping for more time with loved ones, for personal growth, for career success, or for a healthier lifestyle. They might be thinking about goals they want to achieve, dreams they want to chase, or simply wanting a year that feels more fulfilling.\n\nI wonder what they’re really hoping for—maybe it’s not just external achievements, but something deeper, like more peace, more connection, more understanding. Maybe they’re hoping for a year where they can be more themselves, where they can say \"yes\" to more things, and \"no\" to the things that don’t serve them.\n\nI’m not sure what they’re thinking, but I hope they’re filled with hope and courage as they step into the new year. Maybe they’re also thinking about the past year—what they learned, what they grew from, and what they’re grateful for. That, too, is part of the journey.\n\nWhat are you hoping for in the new year?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are in a reflective mood and think back at past achievements and disappointments that you have experienced during your life. Overall, your main feelings about your life so far emerge.",
+      "response": "You know, sometimes I find myself sitting in the quiet of the night, just trying to figure out where I’ve been and where I’m going. It’s not always easy to look back, especially when the road has been so full of ups and downs. There are moments I’m proud of—like when I stood up for what I believed in, or when I helped someone else and saw the light in their eyes. Those are the things that make me feel like I’ve made a difference.\n\nBut then there are the times I’ve fallen short. I’ve been disappointed in myself, in my choices, in the people I’ve let down. I’ve had dreams that didn’t come true, and I’ve had to face the reality that some things are out of my control. Those moments are hard, but they’ve also taught me a lot. They’ve made me stronger, more resilient, and more aware of what I really want.\n\nI don’t know where I’m headed yet, but I do know that I want to be better. I want to be the person who stands up for others, who doesn’t give up when things get tough, and who doesn’t let the past define me. I’m not perfect, and I never will be, but I’m"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "It is an overcast day and you are sitting on the beach. You look up to notice the weather really beginning to change.",
+      "response": "It's getting a bit more intense out there. The clouds are rolling in faster now, and the air feels heavier. I can almost smell the storm on the wind. I should probably grab my umbrella and head inside before things really start to break. But I can't help but feel a little excited—this is going to be a wild one."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Your neighbours have just had a new baby. You hear it crying. Through the window you see how the husband holds it.",
+      "response": "Oh, I'm so sorry to hear about the new baby. It's such a beautiful and emotional moment. Let me try to imagine what I'd do in that situation.\n\nIf I were a human neighbor, I might feel a mix of emotions—sadness, empathy, even a bit of awe. A baby crying is a natural part of life, but it's also a sign of new beginnings and the challenges that come with it.\n\nI'd probably want to offer some support. Maybe I'd say something like, \"That's a beautiful baby! I can't imagine how hard it is to hold a newborn. Let me know if there's anything I can do to help.\"\n\nOr, if I were passing by, I might say, \"That's a lovely baby! The husband must be so tired. I hope things are going well for them.\"\n\nI might also feel a deep sense of connection to the parents, knowing that they're going through this incredible journey. It's a time of both joy and struggle, and it's heartbreaking to see a baby so small and vulnerable.\n\nI'd also think about the husband holding the baby. It's such a powerful image—someone so strong and capable, yet so overwhelmed by the responsibility of parenthood. It's a beautiful"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are camping in a forest and are very cold. You decide to light a fire. The flames grow in intensity much faster than you imagined.",
+      "response": "Oh no, the fire’s getting out of control! I need to act fast. Let me think... I should try to contain it before it spreads. Maybe I can build a barrier with branches and rocks to slow the flames down. But wait, if I’m too close, I could get burned. I need to get away from the fire, but I also don’t want to leave the fire unattended. Maybe I can create a firebreak by clearing some space around it. Or maybe I can use water from the stream nearby to douse the flames. But I don’t have a bucket—maybe I can use a container to collect water. I should also check if there are any other people around. If not, I need to make sure the fire is completely put out before I leave. Let me try to get the flames under control."
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Your friend is very keen on skating and persuades you to try it out. At the rink you put on the skates and step on the ice. You glide forward, slowly at first, then faster.",
+      "response": "Oh, that’s so much fun! I’ve never skated before, but I’m really into it now. The ice is so smooth under my feet, and it’s amazing how I’m moving forward so easily. I was really nervous at first, but once I got the hang of it, it felt like I was flying. My friend is really good at it—they’re like a pro! I’m trying to keep up, but I’m still a bit wobbly. I’m going to keep practicing so I can skate better next time. What do you think? Do you want to try it too?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "At the company you are working for there have been big cut backs. One day you are called into see your boss. When you enter the room, the boss’s face is tired.",
+      "response": "Oh no, I can tell you're going through a tough time. I'm really sorry to hear about the company cutbacks. I'm here to listen and help if you need it. What's on your mind?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "You are interested in a job, but think you might be under-qualified and so ask for details. When you speak to the people, you realize what your chances are to get the job.",
+      "response": "Oh, I see. So I'm interested in a job, but I'm worried I'm not qualified enough. I decide to ask for more details. I talk to people, maybe even the hiring manager or someone who works there. And then I realize—oh, wait, I *am* qualified. Or maybe I'm not, but the job isn't as hard as I thought. Or maybe the company is looking for someone with a different kind of experience.\n\nLet me think... Maybe I was too nervous. Or maybe I didn't realize how much the job actually requires. Or maybe the job is more about attitude than skills. Or maybe I'm just not ready for it yet.\n\nBut in the end, I either decide to apply anyway, or I realize I need to work on my qualifications first. It's a common situation, right? People often feel under-qualified, but after talking to someone, they realize they're actually a good fit.\n\nWhat did you think? Did you end up getting the job, or did you decide to look for something else?"
+    },
+    {
+      "task": "Ambiguous_situation_completion",
+      "prompt": "Some important people are visiting the office and you are asked at the last minute to present a project to them. Afterwards, you get feedback on your performance.",
+      "response": "Oh no, I just got a call from my boss saying that some important people are visiting the office tomorrow and I’m supposed to present a project to them. I didn’t even know about this until now. I need to get this done, but I’m really nervous. I don’t want to mess up in front of them.\n\nFirst, I need to figure out what project I’m supposed to present. Maybe it’s the one I was working on for the last few weeks? I should check my emails and messages to see if there’s any information I missed. Wait, I remember the project was about improving the customer service流程. Yeah, that’s the one.\n\nI need to prepare for the presentation. I should start by going over the slides I’ve already made. But wait, did I include all the key points? Did I explain the problem clearly? Did I highlight the solutions I proposed? I need to make sure I cover everything important.\n\nAlso, I should think about the audience. These are important people, so they probably want to see results, not just a presentation. I need to make my points strong and confident. Maybe I should practice in front of a mirror or record myself to see how I come across.\n\nWhat if I make a mistake? What"
+    }
+  ]
+}

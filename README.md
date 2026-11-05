@@ -22,7 +22,7 @@ python run_all.py
 
 This script will first generate the steering vectors which will take a few minutes. After the vectors have been generated, it will generate the responses using the vector injection approach used in this assignment into the folder `<repository-root>/results/generations`. Finally it will evaluate the generated responses based on the files in `<repository-root>/results/generations` and generate a comprehensive results csv and a summary csv into the folder `<repository-root>/results`.
 
-The entire process is fully automated and takes approximately 15 minutes on an RTX 3080 10 GB.
+The entire process is fully automated and takes approximately 20 minutes on an RTX 3080 10 GB.
 
 ## Artifact explanations in the results folder
 
